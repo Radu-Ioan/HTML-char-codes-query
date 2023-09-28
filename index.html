@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query HTML char codes</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="menu">
+            <button id="font-change" class="menu-btn">Change font</button>
+            <button id="greek-specials-btn" class="menu-btn">Special greeks</button>
+            
+        </div>
+
+        <div class="flex-container">
+            
+            <div id="ranges" class="">
+                <span>&#<input id="rangeLeft" type="number" value="945">;</span>
+                <span>&#<input id="rangeRight" type="number" value="1000">;</span>
+            </div>
+
+            <button id="generate-btn">Generate</button>
+        
+            <div id="table" class="grid-box">
+        
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- <div class="flex-container">
+        <button id="generate-btn">Generate</button>
+
+        <div id="ranges" class="grid-box">
+            <span>&#<input id="rangeLeft" type="number" value="945">;</span>
+            <span>&#<input id="rangeRight" type="number" value="1000">;</span>
+        </div>
+    
+        <div id="table" class="grid-box">
+    
+        </div>
+    </div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>

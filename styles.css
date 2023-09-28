@@ -1,0 +1,139 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { min-height: 100vh; }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 100%;
+}
+
+.flex-container {
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+
+    font-size: 1.5rem;
+}
+
+.grid-box * {
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.code-text {
+    font-family: sans-serif;
+}
+
+.text-class {
+    font-family: sans-serif;
+}
+
+
+.row-border {
+    border-top: 1px solid black;
+    grid-column: 1 / 3;
+}
+
+
+#table {
+    align-self: center;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90px;
+    font-size: 1.5rem;
+}
+
+#ranges {
+    align-self: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+#leftRange, #rightRange {
+    width: 2px;
+    display: inline;
+    font-size: 2rem;
+}
+
+
+#generate-btn {
+    color: beige;
+    background-color: rgb(24, 110, 223);
+
+    border-radius: 5px;
+    height: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+    align-self: center;
+
+    font-size: 1.5rem;
+}
+
+#generate-btn:hover {
+    background-color: rgb(77, 142, 227);
+    cursor: pointer;
+}
+
+#generate-btn:focus {
+    border: 3px solid #efefef;  
+    box-shadow: #efefef;    
+}
+
+
+.menu {
+    margin-left: 5vw;
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu-btn {
+    background-color: rgba(192, 186, 75, 0.215);
+    color: black;
+
+    padding: 5px;
+    border-radius: 5px;
+
+    font-family: system-ui, sans-serif;
+    font-size: 1.3rem;
+
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: rgb(245, 243, 225);
+}
+
+
+#font-change {
+    font-family: 'Gentium Book Plus', serif;
+    background-color: cadetblue;
+    color: #efefef;
+
+    margin-bottom: 10px;
+}
